@@ -9,7 +9,7 @@ public class U2_1_2_A2 {
         System.out.print("Type a positive integer (no commas): ");
         //initialize and input number
         String number=sc.nextLine();
-        //check if the number has a period or negative
+        //check if the number has a period or negativ
         if(number.indexOf(".")!=-1||number.indexOf("-")!=-1){
             //if it isn't a number, say it's invalid
             System.out.println(number + " is an invalid input.");
