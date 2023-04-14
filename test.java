@@ -6,6 +6,9 @@ public class test {
 		//initialize scanner
 		Scanner sc = new Scanner(System.in);
 		String Hello="hello";
-        System.out.print(Hello.indexOf("a"));
+		String name="weiqi";
+        System.out.printf("%-15s%10s%10s%10s\n", "Name", "Unit 1", "Unit 2", "Average");
+		String intro=Hello+" "+name;
+		System.out.print(intro);
 		}
 	}
