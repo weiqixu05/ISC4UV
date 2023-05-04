@@ -6,7 +6,7 @@ public class U3_3_4_A1 {
         //initialize scanner
 		Scanner sc = new Scanner(System.in);
         //ask user how many items they would like to enter
-        System.out.println("How many items do you want to enter? ");
+        System.out.print("How many items do you want to enter? ");
         //input number
         int n=sc.nextInt();
         //initialize item class
@@ -16,12 +16,12 @@ public class U3_3_4_A1 {
             //create item object for ith loop
             item[i]=new Item();
             //ask user to input the name of the i+1 item
-            System.out.println("Enter the name of item " + (i+1));
+            System.out.print("Enter the name of item " + (i+1));
             //input name
             sc.nextLine();
             item[i].name=sc.nextLine();
             //ask user to input the weight
-            System.out.println("Enter the weight of item " + (i+1));
+            System.out.print("Enter the weight of item " + (i+1));
             //input weight
             item[i].weight=sc.nextInt();
         } //end of for loop
