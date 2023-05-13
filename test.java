@@ -7,6 +7,9 @@ public class test {
 		//initialize scanner
 		double number=0.1;
 		Scanner sc = new Scanner(System.in);
-		System.out.println(number);
+		int m=1;
+		int b=2;
+		String y="y = " + Integer.toString(m) + "x + " + Integer.toString(b);
+		System.out.println(y);
 		}
 	}
