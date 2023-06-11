@@ -16,6 +16,7 @@ public class FinalProject{
         System.out.println("Hello, welcome to the Base Changer.");
         //initialize instance of choice
         Choice choice=new Choice();
+        //encapsulate program
         while(true){
             //tells user choices
             System.out.print("Here's a list of your options: \n\n1. Input a word and return it's ASCII values in a base of your choice. \n2. Input a number (of a base of your choosing), and output it (in a base of your choosing).\n3. Convert a word to base 10 ASCII values and sort the output from least to greatest.\n");
