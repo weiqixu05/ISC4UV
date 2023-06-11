@@ -1,9 +1,9 @@
 //Weiqi Xu, 6/10/2023
 /*
-This program is a base changer. It will have 2 options Option 1)Convert the user inputted word from it's characters into any base's(less than or equal to 10) in it's ASCII value 
-Option
-2)Convert the user inputted number(that can be in any base) into another base(any other base of the users choosing)(with ever base having to be lesser than or equal to 10)
-3) Convert the word to base 10 ASCII values and sort the output
+This program is a base changer. It will have 3 options 
+Option 1)Convert the user inputted word from it's characters into any base's(less than or equal to 10) in it's ASCII value 
+Option 2)Convert the user inputted number(that can be in any base) into another base(any other base of the users choosing)(with ever base having to be lesser than or equal to 10)
+Option 3) Convert the word to base 10 ASCII values and sort the output
 */
 
 import java.io.*;
